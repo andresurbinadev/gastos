@@ -14,7 +14,7 @@ def test_rechaza_negativos():
     with pytest.raises(ValueError):
         total([10, -3])
 
-def test_promedio():
+def test_promedio_simple():
     assert promedio([10, 20]) == 15
 
 def test_rechaza_negativos_promedio():
